@@ -79,25 +79,20 @@ Liste os RNFs do sistema conforme seu MVP.
 Para **cada caso de uso**, utilize o template abaixo:
 ---
 
-## **UCXX — Nome do Caso de Uso**
-**Ator(es):**  
-**Descrição:**  
-**Pré-condições:**  
-**Pós-condições:**  
+## **UC01 — Identificar Cliente**
+**Ator(es): Atendendte**  
+**Descrição: Buscar no sistema o cliente**  
+**Pré-condições: Sistema estar funcionando**  
+**Pós-condições: Cliente identificado**  
 
 ### Fluxo Principal
-1.  
-2.  
-3.  
-4.  
+1.  Informa nome do cliente ou o CPF.
+2.  O sistema busca o cliente no banco de dados.
+3.  Exibe todos os dados do cliente. 
 
 ### Fluxos Alternativos / Exceções
-- FA01 —  
-- FA02 —  
+- FA01 —  Se não estiver cadastrado ainda, aparecer uma informação de cadastro.
 
-### Relacionamentos
-- **Include:** (listar quando aplicável)  
-- **Extend:** (listar quando aplicável)  
 
 ### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
 
